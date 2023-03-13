@@ -6,8 +6,111 @@
     <title>Bootstrap freelancer</title>
     <!-- link bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- link css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- link fontawesome 6.3.0 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   </head>
   <body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md text-uppercase bg-dark-blue">
+        <div class="container-fluid container-md">
+        <a class="navbar-brand text-white fw-bold" href="#">start bootstrap</a>
+        <button class="navbar-toggler border-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Togglenavigation">
+            <span class="navbar-toggler-icon filter-invert"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link text-white fw-bold" href="#">portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white fw-bold" href="#">about</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white fw-bold" href="#">contact</a>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <!-- start -->
+    <section class="start text-uppercase bg-green d-flex flex-column align-items-center">
+        <img src="./assets/img/avatar.svg" alt="avatar">
+        <h1 class="text-white fw-bold">start bootstarp</h1>
+        <div class="star d-flex align-items-center">
+            <div class="riga"></div>
+            <div><i class="fa-solid fa-star"></i></div>
+            <div class="riga"></div>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <a href="#">graphic bootstrap</a>
+                </li>
+                <li class="dashed">
+                    <a href="#" >web designer</a>
+                </li>
+                <li class="dashed">
+                    <a href="#" >illustrator</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- main -->
+    <main>
+
+        <!-- portfolio -->
+        <section id="portfolio" class="text-uppercase d-flex flex-column align-items-center">
+
+            <h2>portfolio</h2>
+
+            <div class="star d-flex align-items-center">
+                <div class="riga"></div>
+                <div><i class="fa-solid fa-star"></i></div>
+                <div class="riga"></div>
+            </div>
+            
+            <div class="container-fluid container-md">
+                <div class="d-flex flex-wrap row-gap-3">
+                    <div class="col-xs-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                        <img src="./assets/img/cabin.png" alt="cabin">
+                    </div>
+
+                    <div class="col-xs-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                        <img src="./assets/img/cake.png" alt="cake">
+                    </div>
+
+                    <div class="col-xs-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                        <img src="./assets/img/circus.png" alt="circus">
+                    </div>
+                    
+                    <div class="col-xs-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                        <img src="./assets/img/game.png" alt="game">
+                    </div>
+
+                    <div class="col-xs-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                        <img src="./assets/img/safe.png" alt="safe">
+                    </div>
+
+                    <div class="col-xs-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                        <img src="./assets/img/submarine.png" alt="submarine">
+                    </div>
+
+                </div>
+            
+            </div>
+
+        </section>
+
+        
+    </main>
     <!-- bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
